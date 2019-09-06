@@ -110,19 +110,6 @@ app.put('/image', (req, res) => {
 
 })
 
-
-bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
-    // Store hash in your password DB.
-  });
-  // Load hash from your password DB.
-bcrypt.compare(myPlaintextPassword, hash, function(err, res) {
-    // res == true
-});
-bcrypt.compare(someOtherPlaintextPassword, hash, function(err, res) {
-    // res == false
-});
-
-
 app.listen(3000, ()=> {
     console.log('app is running on port 3000');
 })

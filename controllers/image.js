@@ -1,4 +1,4 @@
-const Clarifai = require('./node_modules/clarifai');
+const Clarifai = require('clarifai');
 const app = new Clarifai.App({
  apiKey: 'd3dce6d0252a49458eff5f953616b3ac'
 });

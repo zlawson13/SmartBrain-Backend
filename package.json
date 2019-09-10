@@ -1,11 +1,7 @@
-
-
 {
   "name": "smart-brain-api",
   "version": "1.0.0",
-  "description": "",
-  "engines": {},
-  "node": "8.9.4",
+  "description": "Smartbrain-API-Zlawson60",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"

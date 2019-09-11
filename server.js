@@ -5,9 +5,9 @@ const bcrypt = require('bcrypt');
 const core = require('cors');
 const knex = require('knex');
 const register = require('./controllers/register');
-const signin = require('./controllers/sigin');
+const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
-const image = require('./controllers/register');
+const image = require('./controllers/image');
 
 app.use(core());
 app.use(bodyParser.json());

@@ -12,5 +12,5 @@ const handleProfileGet = (req, res, db) => {
   }
   
   module.exports = {
-    handleProfile: handleProfile
+    handleProfileGet: handleProfileGet,
   }
